@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  color: #43a047;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #43a047;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+.navbar div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.active {
+  color: red;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  width: 300px;
+}
+.container select {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.container button {
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(32, 32, 32);
+  border-radius: 5px;
+}
+.pokemonContainer {
+  display: flex;
+  padding: 20px;
+  border: 2px solid grey;
+  margin: 100px;
+}
+.pokemonContainer img {
+  width: 200px;
+  height: auto;
+}
